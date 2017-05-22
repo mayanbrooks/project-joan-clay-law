@@ -1,0 +1,83 @@
+/*.nav-color{
+  @extend .indigo, .darken-4;
+}*/
+.nav-wrapper{
+  min-height: 85px;
+  font-family: "Roboto";
+}
+
+.logo-size{
+  padding: 15px;
+  display: block;
+}
+
+.hero-image {
+  background-image: url(../assets/nycskyline2.jpg);
+  width: 100%;
+  min-height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.tagline{
+  font-size: 42px;
+  font-family: "Roboto";
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 0 auto;
+}
+
+/*.image-container{
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  align-items: center;*/
+
+
+.image-title{
+  font-size: 23px;
+  padding: 15px;
+  font-family: "Roboto";
+}
+
+.title {
+  padding-top: 150px;
+  padding-bottom: 35px;
+  margin: 0 auto;
+  font-size: 32px;
+  text-align: center;
+  font-family: "Roboto";
+
+}
+
+.text{
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Roboto";
+}
+
+.sub-title{
+  font-size: 26px;
+  text-align: center;
+  padding-top: 50px;
+  font-family: "Roboto";
+}
+
+.bulleted{
+  padding: 10px;
+
+}
+
+li{
+  padding: 5px;
+}
+
+.joan-headshot{
+  padding: 25px;
+  padding-top: 30px;
+}
+
+.title-attorney-clay{
+  padding-bottom: 80px;
+}
