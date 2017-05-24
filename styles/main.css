@@ -6,55 +6,119 @@
   font-family: "Roboto";
 }
 
-.logo-size{
-  padding: 15px;
-  display: block;
+.nav-padding{
+  padding-top: 13px;
+}
+.logo-size-top{
+  display: block !important;
 }
 
+.logo-size-bottom{
+  padding: 30px !important;
+  display: block !important;
+  color: #0288d1 !important;
+}
 .hero-image {
-  background-image: url(../assets/nycskyline2.jpg);
+  background-image: url(../assets/chicago-skyline.jpeg);
   width: 100%;
-  min-height: 600px;
-  background-size: contain;
+  min-height: 550px;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
-.tagline{
-  font-size: 42px;
-  font-family: "Roboto";
-  padding-top: 100px;
-  padding-bottom: 100px;
+.tagline-box{
+  /*padding-top: 100px;
+  padding-bottom: 100px;*/
   margin: 0 auto;
+  background-color: black;
+  width: 100%;
+  height: 80px;
+
 }
 
-/*.image-container{
-  display: flex;
-  flex-direction: row;
+.tagline-text{
+  padding: 10px;
+  color: white;
+  font-size: 38px;
+  font-family: "Roboto";
   margin: 0 auto;
-  align-items: center;*/
+  background-color: black;
+  width: 100%;
+  height: 80px;
+}
+
+@media only screen (max-width: 977px) {
+  .tagline-text {
+  font-size: 24px;
+  }
+}
+
+
+.spacing {
+  padding-top: 150px;
+  padding-bottom: 150px;
+
+}
+
+
+
+.circular-spacing{
+  margin: 0 auto;
+
+}
 
 
 .image-title{
-  font-size: 23px;
+  font-size: 26px;
   padding: 15px;
   font-family: "Roboto";
+  color: #1a237e;
+  /*width: 200px;
+  height: 50px;
+  color: white;
+  background-color: blue;
+  border-radius: 70px;
+  position: absolute;
+  left: 300px;
+  top: 760px;*/
 }
 
+.about-us-box{
+  /*background-color: #e1f5fe;*/
+  background-color: #1a237e;
+  /*opacity: 0.5;*/
+  padding: 45px;
+}
 .title {
-  padding-top: 150px;
+  /*padding-top: 150px;*/
   padding-bottom: 35px;
   margin: 0 auto;
-  font-size: 32px;
+  font-size: 34.5px;
   text-align: center;
   font-family: "Roboto";
 
+
 }
 
-.text{
+.about-us-sub-color{
+    color: #FFFFFF;
+}
+
+.about-us-color{
+
+  color: #0288d1;
+}
+
+.text {
   padding: 5px;
   margin: 0 auto;
   text-align: center;
   font-family: "Roboto";
+  font-size: 17.5px;
+}
+
+.areas-title{
+  color: #1a237e;
 }
 
 .sub-title{
@@ -62,10 +126,13 @@
   text-align: center;
   padding-top: 50px;
   font-family: "Roboto";
+  color: #1a237e;
 }
 
 .bulleted{
   padding: 10px;
+  color: #0288d1;
+
 
 }
 
@@ -79,5 +146,45 @@ li{
 }
 
 .title-attorney-clay{
+  padding-top: 100px;
   padding-bottom: 80px;
+  color: #1a237e;
+}
+
+.contact-us-section{
+  padding: 100px;
+  max-width: 100%;
+  min-height: 1000px;
+}
+
+
+.title-contact{
+  font-size: 36px;
+  color: #1a237e;
+  padding-bottom: none;
+
+}
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  max-height: 450px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+.input-format{
+  border: 1px solid #1a237e;
+  padding: 50px;
+}
+
+.testimonial-wrapper{
+  width: 100%;
+  min-height: 200px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
