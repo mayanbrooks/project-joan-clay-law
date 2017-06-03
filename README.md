@@ -1,10 +1,15 @@
 # project-joan-clay-law
 
-This is a website for a small business legal firm. The site is officially published at http://jclaylegal.com . It is currently being hosted by GH-Pages. 
+Built By: Maya Brooks
 
+PURPOSE: This is a website for a small business legal firm. The site is officially published at http://jclaylegal.com . It is currently being hosted by GH-Pages. 
 
-Attributions: Pictures are from pexels.com. 
+Fonts: Imported from Google Fonts.  
 
-Integrations/Dependecies: This website was built utilizing Materialize Css, JQuery, and formspree.io. 
+Images: Pictures are from https://www.pexels.com . 
+
+Icons: Icons are from https://www.iconfinder.com . 
+
+Integrations/Dependecies: This website was built utilizing Materialize CSS, JQuery, and formspree.io. 
 
 Copyright: Maya Brooks 2017. 
