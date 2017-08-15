@@ -17,24 +17,58 @@
   <!-- css sheets -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
 
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   <link rel="stylesheet" href="styles/main.css" type=text/css>
 
 </head>
 <body>
 
 <header>
-  <nav>
+
+    <nav>
     <div class="nav-wrapper indigo darken-4">
       <div class="brand-logo logo-size-top">Law Office of </div>
       <div class="brand-logo logo-size-bottom">JOAN D. CLAY </div>
+
+<!-- collapsible nav -->
+
       <div>
-        <ul id="nav-mobile" class="nav-padding right hide-on-med-and-down">
+
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class=" material-icons">menu</i></a>
+        <ul id="nav-mobile" data-activates="dropdown1" class="nav-padding right hide-on-med-and-down">
+          <li><a class="dropdown-button" href="#!" ></a></li>
+          <li><a href="index.html">HOME</a></li>
           <li><a href="#about-us-jump">ABOUT US</a></li>
           <li><a href="#areas-of-prac-jump">AREAS OF PRACTICE</a></li>
           <li><a href="attorneyclay.html">ATTORNEY CLAY</a></li>
           <li><a href="testimonials.html">TESTIMONIALS</a></li>
           <li><a href="contactus.html">CONTACT US</a></li>
         </ul>
+
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#about-us-jump">ABOUT US</a></li>
+          <li><a href="#areas-of-prac-jump">AREAS OF PRACTICE</a></li>
+          <li><a href="attorneyclay.html">ATTORNEY CLAY</a></li>
+          <li><a href="testimonials.html">TESTIMONIALS</a></li>
+          <li><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+
+<!-- end collapsible nav -->
+
+<!-- dropdown content -->
+        <ul id="dropdown1" class="dropdown-content">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#about-us-jump">ABOUT US</a></li>
+          <li><a href="#areas-of-prac-jump">AREAS OF PRACTICE</a></li>
+          <li><a href="attorneyclay.html">ATTORNEY CLAY</a></li>
+          <li><a href="testimonials.html">TESTIMONIALS</a></li>
+          <li><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+
+<!-- end dropdown content -->
+
       </div>
     </div>
   </nav>
@@ -42,13 +76,16 @@
 </header>
 
 <section>
+
   <div class="hero-image">
     &nbsp;
   </div>
 
   <div class="tagline-box responsive">
     <div class="tagline-text center-align responsive">
-      Professional, Passionate Legal Representation
+      <p class="tagline-resize">
+        Professional, Passionate Legal Representation
+      </p>
     </div>
   </div>
 </section>
@@ -60,7 +97,7 @@
       <div class="col s12 m6 l6 center-align circular-spacing-left">
 
         <a href="#about-us-jump">
-        <img src="assets/lawstockphoto-1.jpeg" class="circle responsive-img" style="height: 250px; width: 250px;"></a>
+        <img src="assets/lawstockphoto-4.JPG" class="circle responsive-img" style="height: 250px; width: 250px;"></a>
 
         <div class="image-title">
           ABOUT US
@@ -103,10 +140,23 @@
 
     <h2 class="title areas-title">AREAS OF PRACTICE</h2>
 
+    <section>
 
-<!-- <div class="sub-hero-image">
-  &nbsp;
-</div> -->
+      <div class="row second-circular-section">
+
+          <div class="col s12 m3 l3 center-align circular-spacing-left">
+            <img src="assets/lawstockphoto-5.jpg" class="circle responsive-img" style="height: 180px; width: 180px;">
+          </div>
+          <div class="col s12 m3 l3 center-align circular-spacing-middle">
+              <img src="assets/lawstockphoto-3.jpg" class="circle responsive-img" style="height: 180px; width: 180px;">
+          </div>
+
+          <div class="col s12 m3 l3 center-align circular-spacing-right">
+            <img src="assets/lawstockphoto-9.jpg" class="circle responsive-img" style="height: 180px; width: 180px;">
+          </div>
+      </div>
+  </section>
+
 
 
     <div class="row">
@@ -139,6 +189,12 @@
 <footer>
 
   <div class="container">
+
+    <div class="small-logo">
+      <img src="assets/SmallLogo.png" style="width: 150px; height: 91px;"/>
+    </div>
+
+
     <p class="center-align disclaimer">
       The Supreme Court of Illinois does not recognize certifications of specialties in the practice of law and the certificate, award or recognition is not a requirement to practice law in Illinois.
       The information on this website is for general purposes only and should not be interpreted to indicate a certain result will occur in your specific legal situation.The information on this website is not legal advice and does not create an attorney-client relationship.
@@ -146,21 +202,8 @@
   </div>
 
 
-    <nav>
-      <div class="nav-wrapper indigo darken-4">
+  <div class="nav-wrapper indigo darken-4"> &nbsp;</div>
 
-        <div>
-          <ul id="nav-mobile" class="nav-padding center-align">
-            <li><a href="#about-us-jump">ABOUT US</a></li>
-            <li><a href="#areas-of-prac-jump">AREAS OF PRACTICE</a></li>
-            <li><a href="attorneyclay.html">ATTORNEY CLAY</a></li>
-            <li><a href="testimonials.html">TESTIMONIALS</a></li>
-            <li><a href="contactus.html">CONTACT US</a></li>
-          </ul>
-        </div>
-
-      </div>
-    </nav>
 
 </footer>
 
@@ -170,7 +213,7 @@
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
 
-  <script type="text/javascript" src= "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.css"></script>
+  <script type="text/javascript" src= "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.js"></script>
 
   <script type="text/javascript" src="scripts/main.js"></script>
 

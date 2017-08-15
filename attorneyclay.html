@@ -16,6 +16,7 @@
 
   <!-- css sheets -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <link rel="stylesheet" href="styles/main.css" type=text/css>
 
@@ -24,20 +25,51 @@
 
   <header>
     <nav>
-      <div class="nav-wrapper indigo darken-4">
-        <div class="brand-logo logo-size-top">Law Office of </div>
-        <div class="brand-logo logo-size-bottom">JOAN D. CLAY </div>
-        <div>
-          <ul id="nav-mobile" class="nav-padding right hide-on-med-and-down">
-            <li><a href="index.html">ABOUT US</a></li>
-            <li><a href="index.html">AREAS OF PRACTICE</a></li>
-            <li><a href="attorneyclay.html">ATTORNEY CLAY</a></li>
-            <li><a href="testimonials.html">TESTIMONIALS</a></li>
-            <li><a href="contactus.html">CONTACT US</a></li>
-          </ul>
-        </div>
+    <div class="nav-wrapper indigo darken-4">
+      <div class="brand-logo logo-size-top">Law Office of </div>
+      <div class="brand-logo logo-size-bottom">JOAN D. CLAY </div>
+
+  <!-- collapsible nav -->
+
+      <div>
+
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class=" material-icons">menu</i></a>
+        <ul id="nav-mobile" data-activates="dropdown1" class="nav-padding right hide-on-med-and-down">
+          <li><a class="dropdown-button" href="#!" ></a></li>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="index.html">ABOUT US</a></li>
+          <li><a href="index.html">AREAS OF PRACTICE</a></li>
+          <li><a href="attorneyclay.html">ATTORNEY CLAY</a></li>
+          <li><a href="testimonials.html">TESTIMONIALS</a></li>
+          <li><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="index.html">ABOUT US</a></li>
+          <li><a href="index.html">AREAS OF PRACTICE</a></li>
+          <li><a href="attorneyclay.html">ATTORNEY CLAY</a></li>
+          <li><a href="testimonials.html">TESTIMONIALS</a></li>
+          <li><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+
+  <!-- end collapsible nav -->
+
+  <!-- dropdown content -->
+        <ul id="dropdown1" class="dropdown-content">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="index.html">ABOUT US</a></li>
+          <li><a href="index.html">AREAS OF PRACTICE</a></li>
+          <li><a href="attorneyclay.html">ATTORNEY CLAY</a></li>
+          <li><a href="testimonials.html">TESTIMONIALS</a></li>
+          <li><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+
+  <!-- end dropdown content -->
+
       </div>
-    </nav>
+    </div>
+  </nav>
 
   </header>
 
@@ -49,11 +81,11 @@
     <h2 class="title title-attorney-clay">ATTORNEY JOAN D. CLAY ESQ. </h2>
 
     <div class="row">
-      <div class="col s6">
-        <img src="assets/joan-headshot.png" class='joan-headshot'>
+      <div class="col s12 m9 l6 attorney-clay-photo">
+        <img src="assets/joanheadshotcrop.jpg" class='joan-headshot'>
 
       </div>
-      <div class="col s6">
+      <div class="col s12 m9 l6 attorney-clay-para">
         <p class="text">
 
           <p>As the sole proprietor of the Law Office of Joan D. Clay, from 2005 to present, Attorney Clay
@@ -82,26 +114,18 @@
 <footer>
 
   <div class="container">
+
+    <div class="small-logo">
+      <img src="assets/SmallLogo.png" style="width: 150px; height: 91px;"/>
+    </div>
+
     <p class="center-align disclaimer">
       The Supreme Court of Illinois does not recognize certifications of specialties in the practice of law and the certificate, award or recognition is not a requirement to practice law in Illinois.
       The information on this website is for general purposes only and should not be interpreted to indicate a certain result will occur in your specific legal situation.The information on this website is not legal advice and does not create an attorney-client relationship.
     </p>
   </div>
 
-    <nav>
-      <div class="nav-wrapper indigo darken-4">
-
-        <div>
-          <ul id="nav-mobile" class="nav-padding center-align">
-            <li><a href="index.html">ABOUT US</a></li>
-            <li><a href="index.html">AREAS OF PRACTICE</a></li>
-            <li><a href="attorneyclay.html">ATTORNEY CLAY</a></li>
-            <li><a href="testimonials.html">TESTIMONIALS</a></li>
-            <li><a href="contactus.html">CONTACT US</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<div class="nav-wrapper indigo darken-4"> &nbsp;</div>
 
 </footer>
 
@@ -110,8 +134,7 @@
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
 
-  <script type="text/javascript" src= "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.css"></script>
-
+  <script type="text/javascript" src= "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.js"></script>
   <script type="text/javascript" src="scripts/main.js"></script>
 
 
